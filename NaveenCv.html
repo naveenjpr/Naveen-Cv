@@ -1,366 +1,180 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Naveen Saini</title>
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+        }
+    </style>
 </head>
-<style type="text/tailwindcss">
-    @layer utilities {
-      .content-auto {
-        content-visibility: auto;
-      }
-    }
-  </style>
 
-<body>
-    <div class="w-[100%]">
-        <div class="w-[85%]  mx-auto border-[2px] border-[solid] border-[black] px-[19px]">
-            <div>
-                <h1 class="uppercase font-[700] text-center	border-b-[2px] border-[black] w-[75px] mx-auto">Resume
-                </h1>
+<body class="bg-gray-100">
+    <div class="w-full max-w-4xl mx-auto p-5 bg-white shadow-lg">
+        <!-- Header Section -->
+        <header class="text-center mb-6">
+            <h1 class="uppercase font-bold text-2xl border-b-2 border-black inline-block mx-auto">Resume</h1>
+        </header>
+
+        <!-- Personal Information -->
+        <section class="mb-6">
+            <h2 class="font-bold text-xl tracking-wide">Naveen Saini</h2>
+            <div class="text-sm mt-1 space-y-1">
+                <p><strong>📍 Address:</strong> H.No 3583, Govind Rao Ji Ka Rasta,</p>
+                <p>4th Crossing, Chandpol Bazar, Jaipur (Raj) - 302001</p>
+                <p><strong>📞 Mobile:</strong> 8619916687</p>
+                <p><strong>✉️ Email:</strong> naveensainijpr@gmail.com</p>
+                <p><strong>🔗 LinkedIn:</strong> <a href="https://www.linkedin.com/in/naveen-saini-78201a293"
+                        class="text-blue-600 underline">https://www.linkedin.com/in/naveen-saini-78201a293</a></p>
+                <p><strong>💻 GitHub:</strong> <a href="https://github.com/naveenjpr"
+                        class="text-blue-600 underline">https://github.com/naveenjpr</a></p>
             </div>
-            <div>
-                <h1 class="font-[700] text-left">NAVEEN SAINI</h1>
-                <h2 class="capitalize">ADD:h.no 3583 govind rao ji ka rasta,<br /> 4th crossing chandpol
-                    bazar,<br />jaipur (raj) 302001
-                    <br /> mob:8619916687
-                </h2>
-            </div>
-            <div class="border-[2px] border-[solid] border-[black] my-[5px]">
-            </div>
-            <div class="grid grid-cols-3 text-[12px]">
-                <div class="col-span-1">
-                    <h1 class="uppercase font-[500] 	border-b-[2px] border-[black] w-[210px]">computer skills :</h1>
-                    <ul class="list-disc w-[95%] border-[2px] mx-auto px-[20px]">
-                        <li>
-                            MERN stack Developer
-                        </li>
-                        <li>
-                            HTML
-                        </li>
-                        <li>
-                            CSS
-                        </li>
-                        <li>
-                            JAVA SCRIPT
-                        </li>
-                        <li>
-                            BOOTSTRAP
-                        </li>
-                        <li>
-                            TAILWIND CSS
-                        </li>
-                        <li>
-                            REACT JS
-                        </li>
-                        <li>
-                            NEXT.JS
-                        </li>
-                        <li>
-                            JQUERY
-                        </li>
-                        <li>
-                            NODE JS
-                        </li>
-                        <li>
-                            EXPRESS JS
-                        </li>
-                        <li>
-                            MONGO DB
-                        </li>
-                        <li>
-                            Mongoose
-                        </li>
-                        <li>
-                            AWS (Amazon Web Services)
-                        </li>
-                        <li>
-                            GitHub </li>
-                        <li>
-                            vercel
-                        </li>
+        </section>
 
 
-                    </ul>
-                </div>
+        <div class="border-t-2 border-black my-1"></div>
 
-                <div class="col-span-2">
-                    <div class="grid grid-cols-2">
-                        <div>
-                            <h1 class="uppercase font-[500]  	border-b-[2px] border-[black] w-[210px]">academic
-                                qualification :
-                            </h1>
-                            <ul class="list-disc w-[95%] px-[20px] border-[2px] mx-auto">
-                                <li>
-                                    Secondary from RBSE Board
-                                </li>
-                                <li>Sr.Sec from RBSE Board</li>
-                                <li>B.A from University of Rajasthan</li>
-                                <li>M.A (History,English literature) from University of Rajasthan</li>
+        <!-- Main Content Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Computer Skills -->
+            <section>
+                <h3 class="uppercase font-medium text-center border-b-2 border-black w-full">Computer Skills</h3>
+                <ul class="list-disc pl-5 mt-2 space-y-1 text-sm">
+                    <!-- Frontend Skills -->
+                    <li><strong>Frontend:</strong> HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React JS, Next.js,
+                        jQuery</li>
 
-                            </ul>
-                        </div>
+                    <!-- Backend Skills -->
+                    <li><strong>Backend:</strong> Node.js, Express.js,</li>
 
+                    <!-- Database Skills -->
+                    <li><strong>Databases:</strong> MySQL, MongoDB, Mongoose</li>
 
-                        <div class="w-[100%]">
-                            <h1 class="uppercase font-[500] 	border-b-[2px] border-[black] w-[210px]">personal
-                                information
-                            </h1>
-                            <div class="list-disc  border-[2px] px-[10px] ">
-                                <div class="flex items-center	justify-between capitalize	 ">
-                                    <ul>
-                                        <li>Father's Name</li>
-                                    </ul>
-                                    <span>:</span>
-                                    <p class="text-left">mr ashok kumar saini</p>
-                                </div>
-                                <div class="flex items-center	justify-between capitalize	 ">
-                                    <ul>
-                                        <li>Date of birth</li>
-                                    </ul>
-                                    <span>:</span>
-                                    <p class="text-left">04.02.1996</p>
-                                </div>
-                                <div class="flex items-center	justify-between capitalize	 ">
-                                    <ul>
-                                        <li>gender</li>
-                                    </ul>
-                                    <span>:</span>
-                                    <p class="text-left">male</p>
-                                </div>
-                                <div class="flex items-center	justify-between capitalize	 ">
-                                    <ul>
-                                        <li>nationality</li>
-                                    </ul>
-                                    <span>:</span>
-                                    <p class="text-left">indian</p>
-                                </div>
-                                <div class="flex items-center	justify-between capitalize	 ">
-                                    <ul>
-                                        <li>marital status</li>
-                                    </ul>
-                                    <span>:</span>
-                                    <p class="text-left">unmarried</p>
-                                </div>
-                                <div class="flex items-center	justify-between capitalize	 ">
-                                    <ul>
-                                        <li>language</li>
-                                    </ul>
-                                    <span>:</span>
-                                    <p class="text-left">Hindi,Englsih</p>
-                                </div>
+                    <!-- DevOps & Deployment -->
+                    <li><strong>DevOps & Hosting:</strong> AWS (Amazon Web Services), Vercel, GitHub</li>
+
+                    <!-- Full-Stack & Other Skills -->
+                    <li><strong>Full-Stack Development:</strong> MERN Stack, WordPress Development</li>
+                </ul>
+            </section>
 
 
-
-
-                            </div>
-                            <!-- <div class="py-[20px] text-[10px] ">
-                                <h1 class="uppercase font-[500] 	border-b-[2px] border-[black] ">career objective :</h1>
-                                <p class="capitalize px-[2px] text-[10px] border-[2px]">to show my superior client
-                                    communication
-                                    skill to enhance my
-                                    knowledge
-                                    an
-                                    expertise for career growth focusing on a role as client relationship.</p>
-                            </div> -->
-                        </div>
-
-                        <div class="col-span-2  ">
-                            <div class="grid grid-cols-2 justify-between	gap-[10px]  ">
-
-
-
-                                <div class="text-[15px] ">
-                                    <h1 class="uppercase font-[500] 	border-b-[2px] border-[black] ">working experience
-                                        :
-                                    </h1>
-                                    <ul class="list-disc w-[95%] mx-auto border-[2px] px-[5px]">
-                                        <li class="text-[15px] list-none text-[red]	">
-                                            (WsCube Tech)
-                                            Web Development Trainee
-                                            from February 2023 to August 2024
-                                        </li>
-
-
-                                    </ul>
-                                </div>
-                                <div class="text-[15px] ">
-                                    <h1 class="uppercase font-[500] 	border-b-[2px] border-[black] text-center	">
-                                        certifcate:</h1>
-                                    <ul class="list-disc w-[95%] mx-auto border-[2px] px-[5px]">
-                                        <li class="text-[15px] list-none text-[red]	">
-                                            <img src="../Naveen-Cv/image/WhatsApp Image 2024-09-07 at 19.00.24_e7f68667.jpg"
-                                                alt="tseting" class="h-[90px] bg-cover bg-center w-[100%]" />
-                                        </li>
-
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="py-[20px] text-[7px]  ">
-                            <h1 class="uppercase font-[500] 	border-b-[2px] border-[black] ">STRENGTH</h1>
-                            <ul
-                                class=" px-[15px] border-[2px] list-disc flex flex-col items-start justify-center w-[95%] mx-auto">
-                                <li>
-                                    Hard Working
-                                </li>
-                                <li>Punctuality</li>
-                                <li>Honesty</li>
-
-
-                            </ul>
-                        </div>
-
+            <!-- Academic Qualification and Personal Information -->
+            <section class="col-span-2">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Academic Qualification -->
+                    <div>
+                        <h3 class="uppercase font-medium text-center border-b-2 border-black w-full">
+                            Academic Qualification
+                        </h3>
+                        <ul class="list-disc pl-5 mt-2 text-sm">
+                            <li><strong>Secondary Education</strong> – RBSE Board</li>
+                            <li><strong>Senior Secondary Education</strong> – RBSE Board</li>
+                            <li><strong>Bachelor of Arts (B.A.)</strong> – University of Rajasthan</li>
+                            <li><strong>Master of Arts (M.A.)</strong> – University of Rajasthan <br>
+                                <span class="text-gray-500 text-xs">(Specialization: History, English Literature)</span>
+                            </li>
+                        </ul>
                     </div>
 
 
+                    <!-- Personal Information -->
+                    <div>
+                        <h3 class="uppercase font-medium text-center border-b-2 border-black w-full">
+                            Personal Information
+                        </h3>
+                        <div class="mt-2 text-sm grid grid-cols-2 gap-2">
+                            <p><strong>Father's Name:</strong> Mr. Ashok Kumar Saini</p>
+                            <p><strong>Date of Birth:</strong> 04.02.1996</p>
+                            <p><strong>Gender:</strong> Male</p>
+                            <p><strong>Nationality:</strong> Indian</p>
+                            <p><strong>Marital Status:</strong> Unmarried</p>
+                            <p><strong>Languages:</strong> Hindi, English</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Working Experience -->
+                <div class="mt-6">
+                    <h3 class="uppercase font-medium border-b-2 border-black">Working Experience</h3>
+                    <div class="mt-2 text-sm">
+                        <p><strong>Company:</strong> WsCube Tech</p>
+                        <p><strong>Role:</strong> Web Development Trainee</p>
+                        <p><strong>Duration:</strong> February 2023 - August 2024</p>
+                        <p><strong>Responsibilities:</strong></p>
+                        <ul class="list-disc pl-5 mt-1">
+                            <li>Developed and maintained web applications using MERN stack.</li>
+                            <li>Worked on front-end frameworks like React.js and Next.js.</li>
+                            <li>Implemented database management using MongoDB and MySQL.</li>
+                            <li>Collaborated with senior developers on real-world projects.</li>
+                            <li>Deployed applications using AWS and Vercel.</li>
+                        </ul>
+                    </div>
                 </div>
 
 
+                <!-- Certificates and Internship Letter -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+                    <div class="border-2 p-3 rounded-lg shadow-sm">
+                        <h4 class="text-center font-semibold text-[10px]">MERN Stack Development Certificate</h4>
+                        <img src="./image/WhatsApp Image 2024-09-07 at 19.00.24_e7f68667.jpg"
+                            alt="MERN Stack Development Certificate from WsCube Tech" 
+                            class="w-full h-auto object-cover rounded-md">
+                    </div>
+                    <div class="border-2 p-3 rounded-lg shadow-sm">
+                        <h4 class="text-center font-semibold text-[10px]">MERN Stack Development Internship Letter</h4>
+                        <img src="./image/WhatsApp Image 2024-11-22 at 16.37.36_d9be250b.jpg"
+                            alt="MERN Stack Development Internship Letter from WsCube Tech" 
+                            class="w-full h-auto object-cover rounded-md">
+                    </div>
+                    <div class="border-2 p-3 rounded-lg shadow-sm">
+                        <h4 class="text-center font-semibold text-[10px]">WordPress Development Certificate</h4>
+                        <img src="./image/WhatsApp Image 2025-02-04 at 18.14.58_0f56a9b2.jpg"
+                            alt="WordPress Development Certificate from WsCube Tech" 
+                            class="w-full h-auto object-cover rounded-md">
+                    </div>
+                </div>
+                
+                
 
-
-
-            </div>
-            <div class="w-[100%] border border-[2px] border-[solid] border-[green]">
-                <h1 class="uppercase font-[500] 	border-b-[2px] border-[black] w-[210px]">my Projects:</h1>
-                <ul class="list-decimal grid grid-cols-2 text-[red] text-[12px] w-[95%] gap-x-[19px] gap-y-3 mx-auto px-[6px]">
-                    <li>
-                        <a href="https://frank-and-ok.vercel.app/" target="_blank">
-
-                            https://frank-and-ok.vercel.app/
-                        </a>
-
-
-
-
-                    </li>
-
-                    <li>
-                        <a href=" https://blog-app-five-chi.vercel.app/" target="_blank">
-                            https://blog-app-five-chi.vercel.app/ </a>
-
-
-                    </li>
-                    <li>
-                        <a href="https://quiz-app-with-login-naveen.vercel.app/ViewQuiz
-                        " target="_blank">https://quiz-app-with-login-naveen.vercel.app/ViewQuiz
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="https://skydash-admin-panel.vercel.app/
-                        " target="_blank">
-
-                            https://skydash-admin-panel.vercel.app/
-
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href=" https://context-api-dummy-api-update-delete.vercel.app/cart" target="_blank">
-
-                            https://context-api-dummy-api-update-delete.vercel.app/cart
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="https://search-movie-for-api.vercel.app/
-                        " target="_blank">
-
-                            https://search-movie-for-api.vercel.app/
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="https://class-one-page-wedsite.vercel.app/
-                        " target="_blank">
-
-                            https://class-one-page-wedsite.vercel.app/
-                        </a>
-                    </li>
-                    <li>
-                        <a href="  https://one-page-second-website.vercel.app/" target="_blank">
-                            https://one-page-second-website.vercel.app/
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="   https://derma-life.vercel.app/" target="_blank">
-                            https://derma-life.vercel.app/
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href=" https://to-do-list-zeta-brown.vercel.app/" target="_blank">
-
-                            https://to-do-list-zeta-brown.vercel.app/
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="                            https://react-api-eta-two.vercel.app/
-                        " target="_blank">
-
-                            https://react-api-eta-two.vercel.app/
-                        </a>
-                    </li>
-                    <li>
-                        <a href="                            https://random-color-clock.vercel.app/
-                        " target="_blank">
-
-                            https://random-color-clock.vercel.app/
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://bootstrap-project-naveen-practics.vercel.app/
-                        " target="_blank">
-
-                            https://bootstrap-project-naveen-practics.vercel.app/
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://class-76.vercel.app/
-                        " target="_blank">
-
-                            https://class-76.vercel.app/
-                        </a>
-                    </li>
-                    <li> <a href="https://api-one-bay-73.vercel.app/" target="_blank">
-
-                            https://api-one-bay-73.vercel.app/
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://skydash-admin-panel-backend-fronted-api.vercel.app/" target="_blank">
-
-                            https://skydash-admin-panel-backend-fronted-api.vercel.app/ <span class="text-black">(node
-                                js api open only aws)</span> </a>
-
-                    </li>
-
-
-                </ul>
-            </div>
-            <div class="w-[100%] text-[15px] mt-[10px] relative">
-                <h1 class="uppercase font-[500] 	border-b-[2px] border-[black] w-[210px]">declaration
-                </h1>
-                <ul class="list-disc w-[95%] px-[20px]  mx-auto">
-                    <li>
-                        I hereby declare that above given information are true & best of my knowledge.
-                    </li>
-
-
-                </ul>
-                <Span class="absolute bottom-0 right-0 font-[700] ">(Naveen Saini)</Span>
-            </div>
-
-
+            </section>
         </div>
+
+        <!-- Projects Section -->
+        <section class="mt-6">
+            <h3 class="uppercase font-medium border-b-2 border-black">My Projects</h3>
+            <ul class="list-decimal grid grid-cols-1 md:grid-cols-2 gap-4 pl-5 mt-2 text-sm text-red-500">
+                <li>
+                    <a href="http://naveen.lovestoblog.com" target="_blank" class="underline text-blue-600 hover:text-blue-800">
+                        http://naveen.lovestoblog.com                    </a>
+                    <p class="text-black mt-1">
+                        This is a single website contains links to show my all projects.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        
+        
+
+        <!-- Declaration -->
+        <section class="mt-6">
+            <h3 class="uppercase font-medium border-b-2 border-black">Declaration</h3>
+            <p class="pl-5 mt-2 text-sm">
+                I hereby declare that the information provided above is true to the best of my knowledge and belief.
+            </p>
+            <div class="text-right mt-4 font-bold">
+                (Naveen Saini)
+            </div>
+        </section>
+        
+    </div>
 </body>
 
 </html>
